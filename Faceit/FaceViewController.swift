@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FaceViewController.swift
 //  Faceit
 //
 //  Created by Bogdan Sasko on 1/28/18.
@@ -8,7 +8,6 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FaceViewController: UIViewController {
     
 }
-
