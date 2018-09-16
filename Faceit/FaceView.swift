@@ -8,8 +8,11 @@
 
 import UIKit
 
+@IBDesignable
 class FaceView: UIView {
-    let viewScale: CGFloat = 0.9
+    @IBInspectable
+    var viewScale: CGFloat = 0.9
+    
     var skullRadius: CGFloat {
       return min(bounds.size.width, bounds.size.height) / 2 * viewScale
     }
